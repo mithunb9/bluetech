@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "bluetech",
+  "version": "${version}",
+  "name": "bluetech",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/mithunb9/untitled"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/bluetech/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.slashpixel.bluetech.client.BluetechClient"
+    ],
+    "main": [
+      "dev.slashpixel.bluetech.Bluetech"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
